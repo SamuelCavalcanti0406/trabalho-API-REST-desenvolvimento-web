@@ -1,4 +1,4 @@
-# API de Tarefas (To-do List)
+# API-REST de Tarefas 
 Este é um projeto de recuperação para a disciplina de Desenvolvimento Web, que consiste em uma **API REST simples** para gerenciar uma lista de tarefas. A API foi desenvolvida em **Node.js** com o framework **Express** e armazena os dados em memória.
 
 ## Funcionalidades da API
