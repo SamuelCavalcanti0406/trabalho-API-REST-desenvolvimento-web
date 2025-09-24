@@ -11,14 +11,17 @@ Para rodar este projeto localmente, você precisa ter o **Node.js** instalado em
 1.  Clone o repositório ou baixe o projeto para o seu computador.
 2.  Abra o terminal na pasta raiz do projeto.
 3.  Instale as dependências usando o npm:
+4.  primeiro entre na pasta no prórpio terminal usando os comandos:
+
+    **cd rec**(entrar na pasta)
   
     **npm install**
    
-4.  Inicie o servidor de desenvolvimento com o Nodemon:
+5.  Inicie o servidor de desenvolvimento com o Nodemon:
   
    **npm run dev**
  
-    O servidor será iniciado na porta 3000.
+   aparecerá uma mensagem como onde o servidor será iniciado na porta 3000.                          (http://localhost:3000) o navegar vai conter uma mensagem intuitiva para acessar testar os        métodos no Postman acessando o http://localhost:3000/tasks(só foi adicionado o /tasks no final)
 
 ## Rotas da API
  Método  Rota                Descrição                        
