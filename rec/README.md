@@ -1,17 +1,17 @@
 # API-REST de Tarefas 
 Este é um projeto de recuperação para a disciplina de Desenvolvimento Web, que consiste em uma **API REST simples** para gerenciar uma lista de tarefas. A API foi desenvolvida em **Node.js** com o framework **Express** e armazena os dados em memória.
 
-## Funcionalidades da API
+# Funcionalidades da API
 A API implementa as quatro operações básicas do **CRUD** (Create, Read, Update, Delete) para gerenciar as tarefas. A comunicação entre o cliente (Postman) e o servidor é feita via **JSON**.
 
-## Pré-requisitos
+# Pré-requisitos
 Para rodar este projeto localmente, você precisa ter o **Node.js** instalado em sua máquina.
 
-## Como Instalar e Rodar
-1.  Clone o repositório ou baixe o projeto para o seu computador.
-2.  Abra o terminal na pasta raiz do projeto.
-3.  Instale as dependências usando o npm:
-4.  primeiro entre na pasta no prórpio terminal usando os comandos:
+# Como Instalar e Rodar
+1  Clone o repositório ou baixe o projeto para o seu computador.
+2  Abra o terminal na pasta raiz do projeto.
+3  Instale as dependências usando o npm:
+4  primeiro entre na pasta no prórpio terminal usando os comandos:
 
     **cd rec**(entrar na pasta)
   
@@ -25,13 +25,13 @@ Para rodar este projeto localmente, você precisa ter o **Node.js** instalado em
 
 ## Rotas da API
  Método  Rota                Descrição                        
-|       |                 | 
+                      
  **GET**  `/tasks`            Lista todas as tarefas.          
  **POST**  `/tasks`            Cria uma nova tarefa.            
  **PUT**  `/tasks/:id`        Atualiza uma tarefa por ID.      
  **DELETE**  `/tasks/:id`      Exclui uma tarefa por ID.        
 
-### Exemplo de JSON
+# Exemplo de JSON
 Para as requisições **POST** e **PUT**, o corpo da requisição deve ser enviado em formato JSON.
 
 **Exemplo para POST (criar uma tarefa):**
